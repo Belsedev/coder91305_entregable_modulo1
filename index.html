@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+        <!--
+    Entregable:
+        Crea una carpeta para tu proyecto con el nombre del mismo.
+        Dentro, crea un archivo 'index.html'.
+        Crea una carpeta llamada "pages" para almacenar los 4 archivos html secundarios correspondientes al proyecto.
+        Define la estructura base de HTML5 (DOCTYPE, html, head, body).
+        En el, asegúrate de incluir el \ correcto para cada html. Dentro del , organiza tu contenido usando: (con logo y ), \ (con \ y ) y \ (con el texto de copyright y las redes sociales). Incluye minimo una sección por archivo html con un titulo, párrafo y una imagen representativa usando \ y \ . Crea un menú de navegación con una lista de enlaces a los diferentes archivos. Verifica que tus encabezados sigan un orden lógico (h1 -> h2 -> h3).
+        Importante: Esto se debe realizar para los 5 archivos HTML de tu proyecto.
+
+    Método de Entrega:
+        Se deberá enviar el link del repositorio de github en modo público.
+    -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Beldev</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Mi Portfolio</h1>
+        <img src="assets\portada.png" alt="portada gaming">
+        <nav class="nav-menu">
+                <a href="#">Inicio</a>
+                <a href="pages/sobre_mi.html">Sobre mí</a>
+                <a href="pages/proyectos.html">Proyectos</a>
+                <a href="pages/contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>Portfolio Profesional</h1>        
+        <section class="box-pages">
+            <h2>Sobre mí</h2>
+            <p>Soy diseñadora UI para gaming en formacion y quiero crear experiencias digitales excepcionales. Este es mi portfolio profesional, van a encontrar aquí mis trabajos más destacados.</p>
+            <figure>
+                <img src="assets\app_principal.png" alt="diseño de app para encontrar mesas de rol" />
+                <figcaption>App de búsqueda de mesas de rol</figcaption>
+            </figure>
+        </section>
+        <section class="box-pages">
+            <h2>Proyectos</h2>
+            <article class="article-pages">
+                <h3>Diseño app</h3>
+                <p>Diseño de una aplicación para encontrar mesas de rol realizado como proyecto final del curso Diseño UX/UI de Coderhouse .</p>
+            </article>
+            <article class="article-pages">
+                <h3>Caso de estudio</h3>
+                <p>Caso de estudio de diseño UI del juego Elden Ring como proyecto final para el curso de UI for gaming de ELVTR</p>
+                <video width="560" height="315" controls>
+                    <source src="https://www.youtube.com/watch?v=pSY74-B7M2c&t=52s" type="video/mp4">
+                </video>
+            </article>            
+        </section>  
+    </main>
+    <footer class="footer">    
+    <!--copyright 2026 -->
+        <p>Contactame <a href="https://www.behance.net/belards1" target="_blank" rel="noopener">Behance</a></p>
+    </footer>
+</body>
+</html>
